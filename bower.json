@@ -1,0 +1,22 @@
+{
+  "name": "summernote-fontawesome",
+  "authors": [
+    "Park Hyunwoo <ez.amiryo@gmail.com>"
+  ],
+  "description": "Using FontAwesome in Summernote",
+  "main": "summernote-fontawesome.js",
+  "moduleType": [],
+  "keywords": [
+    "summernote",
+    "fontawesome"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/lqez/summernote-fontawesome",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

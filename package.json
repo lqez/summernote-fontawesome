@@ -1,0 +1,25 @@
+{
+  "name": "summernote-fontawesome",
+  "version": "0.1.0",
+  "description": "Using FontAwesome in Summernote",
+  "main": "summernote-fontawesome.js",
+  "devDependencies": {
+    "summernote": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lqez/summernote-fontawesome"
+  },
+  "keywords": [
+    "summernote",
+    "fontawesome"
+  ],
+  "author": "Park Hyunwoo <ez.amiryo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lqez/summernote-fontawesome/issues"
+  }
+}
