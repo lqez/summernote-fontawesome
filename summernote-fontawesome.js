@@ -9,7 +9,7 @@
 }(function ($) {
 
   $.extend($.summernote.plugins, {
-    'font-awesome': function (context) {
+    'summernote-fontawesome': function (context) {
       var self = this;
       self.$toolbar = context.layoutInfo.toolbar;
 
