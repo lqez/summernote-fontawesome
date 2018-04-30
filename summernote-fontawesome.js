@@ -8,55 +8,46 @@
   }
 }(function ($) {
 
-  $.extend($.summernote.plugins, {
-    'summernote-fontawesome': function (context) {
-      var self = this;
-      self.$toolbar = context.layoutInfo.toolbar;
-
-      var icons = {
-        'note-icon-align': 'fa-align',
-        'note-icon-align-center': 'fa-align-center',
-        'note-icon-align-justify': 'fa-align-justify',
-        'note-icon-align-left': 'fa-align-left',
-        'note-icon-align-right': 'fa-align-right',
-        'note-icon-align-indent': 'fa-indent',
-        'note-icon-align-outdent': 'fa-outdent',
-        'note-icon-arrows-alt': 'fa-arrows-alt',
-        'note-icon-bold': 'fa-bold',
-        'note-icon-caret': 'fa-caret-down',
-        'note-icon-circle': 'fa-circle',
-        'note-icon-close': 'fa-close',
-        'note-icon-code': 'fa-code',
-        'note-icon-eraser': 'fa-eraser',
-        'note-icon-font': 'fa-font',
-        'note-icon-italic': 'fa-italic',
-        'note-icon-link': 'fa-link',
-        'note-icon-magic': 'fa-magic',
-        'note-icon-menu-check': 'fa-check',
-        'note-icon-minus': 'fa-minus',
-        'note-icon-orderedlist': 'fa-list-ol',
-        'note-icon-pencil': 'fa-pencil',
-        'note-icon-picture': 'fa-picture-o',
-        'note-icon-question': 'fa-question',
-        'note-icon-redo': 'fa-redo',
-        'note-icon-square': 'fa-square',
-        'note-icon-strikethrough': 'fa-strikethrough',
-        'note-icon-subscript': 'fa-subscript',
-        'note-icon-superscript': 'fa-superscript',
-        'note-icon-table': 'fa-table',
-        'note-icon-text-height': 'fa-text-height',
-        'note-icon-trash': 'fa-trash',
-        'note-icon-underline': 'fa-underline',
-        'note-icon-undo': 'fa-undo',
-        'note-icon-unorderedlist': 'fa-list-ul',
-        'note-icon-video': 'fa-video-camera'
-      }
-
-      this.initialize = function() {
-        $.each(icons, function(key, value) {
-          self.$toolbar.find('i.' + key).removeClass(key).addClass('fa ' + value);
-        });
-      };
-    }
+  /**
+   * Support font-awesome icon class name 
+   */
+  $.extend($.summernote.options.icons ,  {
+    'align': 'fa fa-align',
+    'alignCenter': 'fa fa-align-center',
+    'alignJustify': 'fa fa-align-justify',
+    'alignLeft': 'fa fa-align-left',
+    'alignRight': 'fa fa-align-right',
+    'indent': 'fa fa-indent',
+    'outdent': 'fa fa-outdent',
+    'arrowsAlt': 'fa fa-arrows-alt',
+    'bold': 'fa fa-bold',
+    'caret': 'fa fa-caret',
+    'circle': 'fa fa-circle',
+    'close': 'fa fa fa-close',
+    'code': 'fa fa-code',
+    'eraser': 'fa fa-eraser',
+    'font': 'fa fa-font',
+    'italic': 'fa fa-italic',
+    'link': 'fa fa-link',
+    'magic': 'fa fa-magic',
+    'menuCheck': 'fa fa-check',
+    'minus': 'fa fa-minus',
+    'orderedlist': 'fa fa-list-ol',
+    'pencil': 'fa fa-pencil',
+    'picture': 'fa fa-picture-o',
+    'question': 'fa fa-question',
+    'redo': 'fa fa-redo',
+    'square': 'fa fa-square',
+    'strikethrough': 'fa fa-strikethrough',
+    'subscript': 'fa fa-subscript',
+    'superscript': 'fa fa-superscript',
+    'table': 'fa fa-table',
+    'textHeight': 'fa fa-text-height',
+    'trash': 'fa fa-trash',
+    'underline': 'fa fa-underline',
+    'undo': 'fa fa-undo',
+    'unorderedlist': 'fa fa-list-ul',
+    'video': 'fa fa-video-camera'
   });
+
 }));
