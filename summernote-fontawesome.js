@@ -21,7 +21,7 @@
     'outdent': 'fa fa-outdent',
     'arrowsAlt': 'fa fa-arrows-alt',
     'bold': 'fa fa-bold',
-    'caret': 'fa fa-caret',
+    'caret': 'fa fa-caret-down',
     'circle': 'fa fa-circle',
     'close': 'fa fa fa-close',
     'code': 'fa fa-code',
