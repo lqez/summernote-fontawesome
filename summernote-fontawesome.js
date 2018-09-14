@@ -29,6 +29,7 @@
     'font': 'fa fa-font',
     'italic': 'fa fa-italic',
     'link': 'fa fa-link',
+    'unlink': 'fa fa-chain-broken',
     'magic': 'fa fa-magic',
     'menuCheck': 'fa fa-check',
     'minus': 'fa fa-minus',
