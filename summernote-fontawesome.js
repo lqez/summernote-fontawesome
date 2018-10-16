@@ -37,7 +37,7 @@
     'pencil': 'fa fa-pencil',
     'picture': 'fa fa-picture-o',
     'question': 'fa fa-question',
-    'redo': 'fa fa-redo',
+    'redo': 'fa fa-repeat',
     'square': 'fa fa-square',
     'strikethrough': 'fa fa-strikethrough',
     'subscript': 'fa fa-subscript',
